@@ -1,0 +1,8 @@
+.area-indicator {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url(/img/arrow.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
