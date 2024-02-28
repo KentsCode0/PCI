@@ -1,0 +1,100 @@
+.table1-container {
+    width: 600px; 
+    margin: 0; 
+}
+
+.table1-container th, td {
+    width: 2000px;
+    text-align: center; 
+}
+
+.table1-row1 th {
+    background-color: rgb(192, 0, 0);
+    color: white;
+    border: none;
+}
+
+.table1-row2 td {
+    background-color: #fff;
+}
+
+.table1-row3 td {
+    background-color: rgb(221, 235, 246);
+}
+
+.table1-row4 td {
+    background-color: #fff;
+}
+
+.table1-row5 td {
+    background-color: rgb(221, 235, 246);
+}
+
+.table2-container {
+    width: 1000px; 
+    margin: 0; 
+}
+
+.table2-container th, td {
+    width: 1000px;
+    text-align: center; 
+}
+
+.table2-row1 th {
+    background-color: rgb(0, 176, 80);
+    color: white;
+    border: none;
+}
+
+.table2-row2 td {
+    background-color: #fff;
+}
+
+.table2-row3 td {
+    background-color: rgb(221, 235, 246);
+}
+
+.table2-row4 td {
+    background-color: #fff;
+}
+
+.table2-row5 td {
+    background-color: rgb(221, 235, 246);
+}
+
+.table3-container {
+    width: 700px; 
+    margin: 0; 
+}
+
+.table3-container th, td {
+    width: 700px;
+    text-align: center; 
+}
+
+.table3-row1 th {
+    background-color: rgb(0, 113, 193);
+    color: white;
+    border: none;
+}
+
+a {
+    color: rgb(37, 114, 183);
+}
+
+.table3-row2 td {
+    background-color: #fff;
+}
+
+.table3-row3 td {
+    background-color: rgb(221, 235, 246);
+}
+
+.table3-row4 td {
+    background-color: #fff;
+}
+
+.table3-row5 td {
+    background-color: rgb(221, 235, 246);
+}
+

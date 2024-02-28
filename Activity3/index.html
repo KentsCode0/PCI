@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nested Navigation Menu</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+<nav class="main-menu">
+  <ul class="menu-list">
+    <li><a href="#home">HOME</a></li>
+    <li class="has-dropdown">
+      <a href="#">PRODUCT</a>
+      <ul class="dropdown-content">
+        <li class="has-subproducts">
+          <a href="#">PRODUCT 1</a>
+          <ul class="subproducts-content">
+            <li><a href="#">SUBPRODUCT 1</a></li>
+            <li><a href="#">SUBPRODUCT 2</a></li>
+          </ul>
+        </li>
+        <li class="has-subproducts">
+          <a href="#">PRODUCT 2</a>
+          <ul class="subproducts-content">
+            <li><a href="#">SUBPRODUCT 3</a></li>
+            <li><a href="#">SUBPRODUCT 4</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+</nav>
+
+<script src="./index.js"></script>
+
+</body>
+</html>

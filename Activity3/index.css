@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-menu {
+    background-color: orange; 
+  }
+  
+  .menu-list {
+    width: 13rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-list li {
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 5px;
+  }
+  
+  .menu-list li a {
+    display: block;
+    color: white;
+    background-color: #333; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 10rem;
+  }
+  
+  .menu-list li a:hover {
+    background-color: #007bff;
+  }
+  
+  .dropdown-content,
+  .subproducts-content {
+    width: 13rem;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; 
+    background-color: orange;
+    z-index: 1;
+  }
+  
+  .menu-list li:hover > .dropdown-content,
+  .has-subproducts:hover > .subproducts-content {
+    display: block;
+  }
+  
